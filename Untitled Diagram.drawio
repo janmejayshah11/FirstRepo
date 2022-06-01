@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T07:55:53.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="xTU-2nptQQm11WSYu9cq" version="18.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-01T07:59:40.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="i34SK8qqopHS-q4KNAl3" version="18.2.0" type="github" pages="2">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="782" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,6 +6,26 @@
         <mxCell id="1" parent="0" />
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-2" value="" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="-90" width="1360" height="416" as="geometry" />
+        </mxCell>
+        <mxCell id="fhNnG0l1kMqkZGUSGfYO-20" value="API&amp;nbsp; Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-2" source="fhNnG0l1kMqkZGUSGfYO-16" target="fhNnG0l1kMqkZGUSGfYO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhNnG0l1kMqkZGUSGfYO-22" value="API Response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-2" source="fhNnG0l1kMqkZGUSGfYO-19" target="fhNnG0l1kMqkZGUSGfYO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhNnG0l1kMqkZGUSGfYO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-2" source="fhNnG0l1kMqkZGUSGfYO-24" target="fhNnG0l1kMqkZGUSGfYO-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="270" />
+              <mxPoint x="70" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fhNnG0l1kMqkZGUSGfYO-43" value="Jumio Web Application opens on the user&#39;s mobile to proceed with KYC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#CCE5FF;labelBorderColor=default;" vertex="1" connectable="0" parent="fhNnG0l1kMqkZGUSGfYO-37">
+          <mxGeometry x="0.3076" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-3" value="Customer Portal&amp;nbsp;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-2">
           <mxGeometry y="20" width="1360" height="153" as="geometry" />
@@ -34,28 +54,8 @@
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-24" value="Customer Scans the QR Code to proceed with Verification.The flow on Jumio would be based on the Workflow Id we have used in Create Account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-3">
           <mxGeometry x="570" y="15" width="120" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="gWAt_un25VGyhn6LpvHq-3" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=general;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-3">
-          <mxGeometry x="710" y="35" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="fhNnG0l1kMqkZGUSGfYO-20" value="API&amp;nbsp; Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-2" source="fhNnG0l1kMqkZGUSGfYO-16" target="fhNnG0l1kMqkZGUSGfYO-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fhNnG0l1kMqkZGUSGfYO-22" value="API Response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-2" source="fhNnG0l1kMqkZGUSGfYO-19" target="fhNnG0l1kMqkZGUSGfYO-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fhNnG0l1kMqkZGUSGfYO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-2" source="fhNnG0l1kMqkZGUSGfYO-24" target="fhNnG0l1kMqkZGUSGfYO-27">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="630" y="270" />
-              <mxPoint x="70" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fhNnG0l1kMqkZGUSGfYO-43" value="Jumio Web Application opens on the user&#39;s mobile to proceed with KYC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#CCE5FF;labelBorderColor=default;" vertex="1" connectable="0" parent="fhNnG0l1kMqkZGUSGfYO-37">
-          <mxGeometry x="0.3076" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-4" value="" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#CCE5FF;labelBorderColor=default;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-3">
+          <mxGeometry x="710" y="30" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-4" value="API Layer" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-2">
           <mxGeometry y="173" width="1360" height="120" as="geometry" />
@@ -103,8 +103,10 @@
             <mxPoint x="630" y="62" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-2" source="fhNnG0l1kMqkZGUSGfYO-39" target="gWAt_un25VGyhn6LpvHq-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-2" source="fhNnG0l1kMqkZGUSGfYO-39" target="J_5IZ1ZhDoMUDhB4Jlvp-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735" y="105" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-3" value="Verification status sent to Customer portal through&amp;nbsp; webhook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=default;labelBackgroundColor=#CCFFFF;" vertex="1" connectable="0" parent="J_5IZ1ZhDoMUDhB4Jlvp-2">
           <mxGeometry x="-0.4809" y="-2" relative="1" as="geometry">
