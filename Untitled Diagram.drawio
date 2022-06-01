@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T08:26:14.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="DaJsUSjHBMfrsATT5aNN" version="18.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-01T08:27:41.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="-RlTvKXmwpnHIQiPA53R" version="18.2.0" type="github" pages="2">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="782" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-2" value="" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-90" width="1360" height="416" as="geometry" />
+          <mxGeometry x="50" y="-100" width="1360" height="416" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-20" value="API&amp;nbsp; Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-2" source="fhNnG0l1kMqkZGUSGfYO-16" target="fhNnG0l1kMqkZGUSGfYO-19">
           <mxGeometry relative="1" as="geometry" />
@@ -54,25 +54,14 @@
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-24" value="Customer Scans the QR Code to proceed with Verification.The flow on Jumio would be based on the Workflow Id we have used in Create Account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-3">
           <mxGeometry x="570" y="15" width="120" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-3" source="J_5IZ1ZhDoMUDhB4Jlvp-4" target="J_5IZ1ZhDoMUDhB4Jlvp-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1020" y="10" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="750" y="10" />
-              <mxPoint x="1010" y="10" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-7" value="&lt;span style=&quot;background-color: rgb(51, 51, 255);&quot;&gt;&lt;font color=&quot;#f5f5f5&quot;&gt;Yes&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J_5IZ1ZhDoMUDhB4Jlvp-6">
-          <mxGeometry x="-0.3417" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-4" value="If Satus Received" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-3">
           <mxGeometry x="710" y="30" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-5" value="If needed to show data updated on Jumio on Portal make Get Workflow Details Retrieval API call" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-3">
-          <mxGeometry x="950" y="37.5" width="120" height="80" as="geometry" />
+          <mxGeometry x="1000" y="36.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-8" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#3333FF;labelBorderColor=none;fontColor=#F5F5F5;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-3">
+          <mxGeometry x="840" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-4" value="API Layer" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-2">
           <mxGeometry y="173" width="1360" height="120" as="geometry" />
@@ -128,6 +117,11 @@
         <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-3" value="Verification status sent to Customer portal through&amp;nbsp; webhook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=default;labelBackgroundColor=#CCFFFF;" vertex="1" connectable="0" parent="J_5IZ1ZhDoMUDhB4Jlvp-2">
           <mxGeometry x="-0.4809" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#F5F5F5;" edge="1" parent="1" source="J_5IZ1ZhDoMUDhB4Jlvp-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
