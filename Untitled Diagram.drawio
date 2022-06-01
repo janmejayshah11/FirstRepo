@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T07:53:48.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="bhC8oUxevrWaq_HbU4y-" version="18.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-01T07:54:33.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Ai06FUmSXtg73qKLjd-Q" version="18.2.0" type="github" pages="2">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="782" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fhNnG0l1kMqkZGUSGfYO-43" value="Jumio Web Application opens on the user&#39;s mobile to proceed with KYC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fhNnG0l1kMqkZGUSGfYO-37">
+        <mxCell id="fhNnG0l1kMqkZGUSGfYO-43" value="Jumio Web Application opens on the user&#39;s mobile to proceed with KYC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#CCE5FF;labelBorderColor=default;" vertex="1" connectable="0" parent="fhNnG0l1kMqkZGUSGfYO-37">
           <mxGeometry x="0.3076" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
