@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T07:23:16.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="f4tst4dH7oBzLGDaUQX_" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T07:27:48.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="A_ZQljtGOAnjAtn-emqn" version="18.2.0" type="github">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="782" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,34 +55,35 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-27" value="Start Verification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-5">
-          <mxGeometry x="30" y="32" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="32" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-5" source="fhNnG0l1kMqkZGUSGfYO-29" target="fhNnG0l1kMqkZGUSGfYO-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-29" value="Option to continue with Mobile or WebCam&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-5">
-          <mxGeometry x="160" y="31.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="31.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-5" source="fhNnG0l1kMqkZGUSGfYO-30" target="fhNnG0l1kMqkZGUSGfYO-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-30" value="Take photo of front of Id card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-5">
-          <mxGeometry x="290" y="31.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="265" y="31.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-5" source="fhNnG0l1kMqkZGUSGfYO-31" target="fhNnG0l1kMqkZGUSGfYO-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-31" value="Take photo of back of Id card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-5">
-          <mxGeometry x="420" y="31.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="31.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-32" value="Take Selfie" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fhNnG0l1kMqkZGUSGfYO-5">
-          <mxGeometry x="550" y="32" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="32" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-2" source="fhNnG0l1kMqkZGUSGfYO-24" target="fhNnG0l1kMqkZGUSGfYO-27">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="280" as="targetPoint" />
             <Array as="points">
               <mxPoint x="630" y="270" />
-              <mxPoint x="90" y="270" />
+              <mxPoint x="70" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
