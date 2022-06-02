@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T14:10:24.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="D4EhuCgrppgUg3oDUXzG" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-02T06:13:43.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="5P09Q14okogrQYweVuU7" version="18.2.0" type="github">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1234" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,6 +44,9 @@
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-10" value="Start" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" parent="fhNnG0l1kMqkZGUSGfYO-3" vertex="1">
           <mxGeometry x="40" y="40" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="LZw4iEEfkQl8qpJhE-6P-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-3" source="fhNnG0l1kMqkZGUSGfYO-16" target="fhNnG0l1kMqkZGUSGfYO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fhNnG0l1kMqkZGUSGfYO-16" value="User Click on Button to Generate QR code for verification" style="rounded=1;whiteSpace=wrap;html=1;" parent="fhNnG0l1kMqkZGUSGfYO-3" vertex="1">
           <mxGeometry x="265" y="35" width="120" height="60" as="geometry" />
         </mxCell>
@@ -62,7 +65,7 @@
         <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-4" value="If Satus Received from webhook" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" parent="fhNnG0l1kMqkZGUSGfYO-3" vertex="1">
           <mxGeometry x="710" y="36.5" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aN7b9jxiZIJNfucI7L5E-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-3" source="J_5IZ1ZhDoMUDhB4Jlvp-5" target="J_5IZ1ZhDoMUDhB4Jlvp-34">
+        <mxCell id="aN7b9jxiZIJNfucI7L5E-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="fhNnG0l1kMqkZGUSGfYO-3" source="J_5IZ1ZhDoMUDhB4Jlvp-5" target="J_5IZ1ZhDoMUDhB4Jlvp-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-5" value="If needed to show data updated on Jumio on Portal make Get Workflow Details Retrieval API call" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" parent="fhNnG0l1kMqkZGUSGfYO-3" vertex="1">
@@ -77,6 +80,9 @@
           <mxGeometry x="-0.0837" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LZw4iEEfkQl8qpJhE-6P-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fhNnG0l1kMqkZGUSGfYO-3" source="J_5IZ1ZhDoMUDhB4Jlvp-18" target="J_5IZ1ZhDoMUDhB4Jlvp-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J_5IZ1ZhDoMUDhB4Jlvp-18" value="Make a Get Status Retrieval API call" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;" parent="fhNnG0l1kMqkZGUSGfYO-3" vertex="1">
           <mxGeometry x="840" y="35" width="120" height="80" as="geometry" />
