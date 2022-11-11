@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T13:01:42.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4e4Br3Y7I-SQS1gZ0knK" version="20.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-11T13:05:02.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="utUSidp60AYQ3NlwCFrW" version="20.5.1" type="github" pages="4">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1022" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -442,6 +442,9 @@
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-26" value="User simply closes the tab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="q-tRWynVouWXqpnCro3p-23">
           <mxGeometry x="170" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q-tRWynVouWXqpnCro3p-46" value="&lt;b&gt;Other Scenarios&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="q-tRWynVouWXqpnCro3p-23">
+          <mxGeometry x="170" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-1" value="ServicePortalNodeJSBackend" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="-100" y="290" width="405" height="380" as="geometry" />
