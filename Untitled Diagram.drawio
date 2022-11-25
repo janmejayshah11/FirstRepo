@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T08:26:19.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7TID_V2DKhCOhGkxDToR" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-25T08:27:50.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wPQcqGBLlNVzjEvXhl7O" version="20.5.3" type="github" pages="4">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1022" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -434,17 +434,8 @@
         <mxCell id="q-tRWynVouWXqpnCro3p-23" value="User Logged Out" style="swimlane;" parent="XjYUF4J5HuS5Eg9mjcWD-1" vertex="1">
           <mxGeometry x="610" y="40" width="320" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="q-tRWynVouWXqpnCro3p-24" value="User clicks on Logout Button" style="rounded=1;whiteSpace=wrap;html=1;" parent="q-tRWynVouWXqpnCro3p-23" vertex="1">
-          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="q-tRWynVouWXqpnCro3p-25" value="If User is Idle for sometime then pop up to extend the session or logout" style="rounded=1;whiteSpace=wrap;html=1;" parent="q-tRWynVouWXqpnCro3p-23" vertex="1">
-          <mxGeometry x="20" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="q-tRWynVouWXqpnCro3p-26" value="User simply closes the tab" style="rounded=1;whiteSpace=wrap;html=1;" parent="q-tRWynVouWXqpnCro3p-23" vertex="1">
-          <mxGeometry x="170" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="q-tRWynVouWXqpnCro3p-46" value="&lt;b&gt;Other Scenarios&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" parent="q-tRWynVouWXqpnCro3p-23" vertex="1">
-          <mxGeometry x="170" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="q-tRWynVouWXqpnCro3p-24" value="User clicks on Logout Button / If User is Idle for sometime then pop up to extend the session or logout" style="rounded=1;whiteSpace=wrap;html=1;" parent="q-tRWynVouWXqpnCro3p-23" vertex="1">
+          <mxGeometry x="20" y="40" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.65;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="XjYUF4J5HuS5Eg9mjcWD-1" edge="1" source="q-tRWynVouWXqpnCro3p-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -623,14 +614,14 @@
         <mxCell id="pT97qanZ1TXDIdIiguL9-8" value="UserId, &lt;br&gt;secureToken,&lt;br&gt;refreshToken" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-6">
           <mxGeometry x="20" y="60" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="q-tRWynVouWXqpnCro3p-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="q-tRWynVouWXqpnCro3p-23" edge="1">
+        <mxCell id="q-tRWynVouWXqpnCro3p-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.311;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="q-tRWynVouWXqpnCro3p-24" edge="1" target="q-tRWynVouWXqpnCro3p-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="280" as="sourcePoint" />
             <mxPoint x="960" y="287" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-42" value="Logout request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="860" y="250" width="100" height="30" as="geometry" />
+          <mxGeometry x="820" y="250" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-44" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1020" y="255" width="80" height="30" as="geometry" />
