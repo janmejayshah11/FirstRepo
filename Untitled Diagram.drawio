@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T08:18:34.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ca5f16ddhjb6D4AVid8v" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-25T08:19:57.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="j2go7OxTl10KjDBEb6Dt" version="20.5.3" type="github" pages="4">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1022" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -426,13 +426,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XjYUF4J5HuS5Eg9mjcWD-1" value="Service Portal React Web App FE" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="190" width="820" height="250" as="geometry" />
+          <mxGeometry x="190" width="970" height="250" as="geometry" />
         </mxCell>
         <mxCell id="XjYUF4J5HuS5Eg9mjcWD-3" value="Authentication" style="rounded=1;whiteSpace=wrap;html=1;" parent="XjYUF4J5HuS5Eg9mjcWD-1" vertex="1">
           <mxGeometry x="10" y="30" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-23" value="User Logged Out" style="swimlane;" parent="XjYUF4J5HuS5Eg9mjcWD-1" vertex="1">
-          <mxGeometry x="490" y="40" width="320" height="200" as="geometry" />
+          <mxGeometry x="610" y="40" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-24" value="User clicks on Logout Button" style="rounded=1;whiteSpace=wrap;html=1;" parent="q-tRWynVouWXqpnCro3p-23" vertex="1">
           <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
@@ -449,7 +449,7 @@
         <mxCell id="q-tRWynVouWXqpnCro3p-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.65;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="XjYUF4J5HuS5Eg9mjcWD-1" edge="1" source="q-tRWynVouWXqpnCro3p-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="740" y="300" as="sourcePoint" />
-            <mxPoint x="743" y="240" as="targetPoint" />
+            <mxPoint x="843" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-1" value="JWT-Auth-Service" style="swimlane;" parent="1" vertex="1">
@@ -550,7 +550,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-27" value="ServicePortalNodeJSBackend" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="640" y="290" width="450" height="410" as="geometry" />
+          <mxGeometry x="740" y="285" width="450" height="410" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-28" value="&lt;b&gt;/auth/logout&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="q-tRWynVouWXqpnCro3p-27" vertex="1">
           <mxGeometry x="30" y="30" width="90" height="30" as="geometry" />
@@ -612,17 +612,17 @@
         <mxCell id="q-tRWynVouWXqpnCro3p-40" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="q-tRWynVouWXqpnCro3p-27" vertex="1">
           <mxGeometry x="210" y="110" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="q-tRWynVouWXqpnCro3p-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.444;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="q-tRWynVouWXqpnCro3p-23" edge="1" target="q-tRWynVouWXqpnCro3p-27">
+        <mxCell id="q-tRWynVouWXqpnCro3p-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="q-tRWynVouWXqpnCro3p-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="280" as="sourcePoint" />
-            <mxPoint x="510" y="290" as="targetPoint" />
+            <mxPoint x="960" y="287" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-42" value="Logout request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="740" y="250" width="100" height="30" as="geometry" />
+          <mxGeometry x="860" y="250" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-44" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="930" y="255" width="80" height="30" as="geometry" />
+          <mxGeometry x="1020" y="255" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
