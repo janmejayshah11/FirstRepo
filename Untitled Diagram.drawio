@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T08:43:52.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="A_-h3KzfLArY83yHTJIw" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-25T08:53:42.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GEHx_6R6j1ncq5E1ZBBI" version="20.5.3" type="github" pages="4">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1022" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -457,6 +457,9 @@
         <mxCell id="pT97qanZ1TXDIdIiguL9-15" value="Access token stored in session storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="XjYUF4J5HuS5Eg9mjcWD-1">
           <mxGeometry x="30" y="70" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-33" value="Intercept the response in UI code and check if AccessToken Expired error is received" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="XjYUF4J5HuS5Eg9mjcWD-1">
+          <mxGeometry x="340" y="80" width="140" height="150" as="geometry" />
+        </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-1" value="JWT-Auth-Service" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="-100" y="290" width="405" height="380" as="geometry" />
         </mxCell>
@@ -647,10 +650,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pT97qanZ1TXDIdIiguL9-12" value="API requiring Authorization" style="swimlane;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
-          <mxGeometry x="325" y="290" width="395" height="300" as="geometry" />
+          <mxGeometry x="320" y="290" width="405" height="300" as="geometry" />
         </mxCell>
         <mxCell id="pT97qanZ1TXDIdIiguL9-20" value="Verify JWT middleware intercepts the requests and first validates the AccessToken received in the Bearer token" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-12">
           <mxGeometry x="15" y="35" width="205" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-23" value="Valid AccessToken" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-12">
+          <mxGeometry x="115" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-24" value="Proceed with endpoint&amp;nbsp; functionality" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-12">
+          <mxGeometry x="57.5" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-26" value="Send Response as Not Authorised" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-12">
+          <mxGeometry x="275" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-27" value="Token&lt;br&gt;&amp;nbsp;Expired&lt;br&gt;&amp;nbsp;Error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-12">
+          <mxGeometry x="205" y="110" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pT97qanZ1TXDIdIiguL9-12" source="pT97qanZ1TXDIdIiguL9-20" target="pT97qanZ1TXDIdIiguL9-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pT97qanZ1TXDIdIiguL9-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pT97qanZ1TXDIdIiguL9-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -663,8 +683,16 @@
         </mxCell>
         <mxCell id="pT97qanZ1TXDIdIiguL9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pT97qanZ1TXDIdIiguL9-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="525" y="520" as="targetPoint" />
+            <mxPoint x="443" y="520" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pT97qanZ1TXDIdIiguL9-26" target="pT97qanZ1TXDIdIiguL9-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-31" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="240" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
