@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T08:57:08.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vzYGWSGegpjXQrwYrE2t" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-25T09:13:06.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dsv5b10tPMNVmVCyascw" version="20.5.3" type="github" pages="4">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1022" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -426,13 +426,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XjYUF4J5HuS5Eg9mjcWD-1" value="Service Portal React Web App FE" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="190" y="-10" width="1330" height="250" as="geometry" />
+          <mxGeometry x="190" y="-10" width="1480" height="250" as="geometry" />
         </mxCell>
         <mxCell id="XjYUF4J5HuS5Eg9mjcWD-3" value="Authentication" style="rounded=1;whiteSpace=wrap;html=1;" parent="XjYUF4J5HuS5Eg9mjcWD-1" vertex="1">
           <mxGeometry x="10" y="30" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-23" value="User Logged Out" style="swimlane;" parent="XjYUF4J5HuS5Eg9mjcWD-1" vertex="1">
-          <mxGeometry x="960" y="40" width="320" height="200" as="geometry" />
+          <mxGeometry x="1085" y="30" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-24" value="User clicks on Logout Button / If User is Idle for sometime then pop up to extend the session or logout. If user opts for logout then call endpoint token/logout" style="rounded=1;whiteSpace=wrap;html=1;" parent="q-tRWynVouWXqpnCro3p-23" vertex="1">
           <mxGeometry x="15" y="40" width="120" height="120" as="geometry" />
@@ -457,8 +457,20 @@
         <mxCell id="pT97qanZ1TXDIdIiguL9-15" value="Access token stored in session storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="XjYUF4J5HuS5Eg9mjcWD-1">
           <mxGeometry x="30" y="70" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XjYUF4J5HuS5Eg9mjcWD-1" source="pT97qanZ1TXDIdIiguL9-33" target="pT97qanZ1TXDIdIiguL9-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XjYUF4J5HuS5Eg9mjcWD-1" source="pT97qanZ1TXDIdIiguL9-33" target="pT97qanZ1TXDIdIiguL9-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pT97qanZ1TXDIdIiguL9-33" value="Intercept the response in UI code and check if AccessToken Expired error is received" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="XjYUF4J5HuS5Eg9mjcWD-1">
           <mxGeometry x="340" y="80" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-36" value="Proceed with FE functionality&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XjYUF4J5HuS5Eg9mjcWD-1">
+          <mxGeometry x="550" y="30" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-42" value="Call API exposed by JWT-Auth-Service&amp;nbsp;&lt;br&gt;token/refresh" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XjYUF4J5HuS5Eg9mjcWD-1">
+          <mxGeometry x="550" y="130" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-1" value="JWT-Auth-Service" style="swimlane;fillColor=#66FFFF;" parent="1" vertex="1">
           <mxGeometry x="-100" y="290" width="405" height="380" as="geometry" />
@@ -558,7 +570,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-27" value="JWT-Auth-Service" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="275" width="450" height="410" as="geometry" />
+          <mxGeometry x="1210" y="275" width="450" height="410" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-28" value="&lt;b&gt;/token/logout&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="q-tRWynVouWXqpnCro3p-27" vertex="1">
           <mxGeometry x="25" y="30" width="100" height="30" as="geometry" />
@@ -693,6 +705,89 @@
         </mxCell>
         <mxCell id="pT97qanZ1TXDIdIiguL9-31" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="550" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-40" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="15" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.903;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pT97qanZ1TXDIdIiguL9-44" target="pT97qanZ1TXDIdIiguL9-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-44" value="JWT-Auth-Service" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="750" y="290" width="450" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-45" value="&lt;b&gt;/token/refresh&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry x="25" y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-46" value="&lt;b&gt;Response:&lt;/b&gt;&lt;br&gt;Not Found - User with secureToken not available" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry x="280" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-47" value="Query in DB if user record available with SecureToken" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry x="145" y="30" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pT97qanZ1TXDIdIiguL9-44" source="pT97qanZ1TXDIdIiguL9-47" target="pT97qanZ1TXDIdIiguL9-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="120" as="sourcePoint" />
+            <mxPoint x="340" y="75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-49" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry x="300" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="pT97qanZ1TXDIdIiguL9-44" source="pT97qanZ1TXDIdIiguL9-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="160" as="sourcePoint" />
+            <mxPoint x="213" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="pT97qanZ1TXDIdIiguL9-44" target="pT97qanZ1TXDIdIiguL9-54" source="pT97qanZ1TXDIdIiguL9-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="296" y="280" as="sourcePoint" />
+            <mxPoint x="214" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="213" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-54" value="&lt;b&gt;Response:&lt;/b&gt;&lt;br&gt;AccessToken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry x="152.5" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-55" value="Request- &lt;br&gt;secureToken&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" vertex="1" parent="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry x="25" y="95" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-57" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry x="210" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-58" value="MongoDB Collection" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry x="10" y="180" width="130" height="160" as="geometry">
+            <mxRectangle x="10" y="170" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-59" value="&lt;b&gt;ServicePortalUser&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-58">
+          <mxGeometry y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-60" value="UserId, &lt;br&gt;secureToken,&lt;br&gt;refreshToken" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-58">
+          <mxGeometry x="20" y="60" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pT97qanZ1TXDIdIiguL9-44" source="pT97qanZ1TXDIdIiguL9-65" target="pT97qanZ1TXDIdIiguL9-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-65" value="Check if refresh Token available and is a valid Refresh Token" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry x="145" y="150" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-69" value="Once&amp;nbsp; RefreshToken JWT validated generate a new accessToken" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry x="300" y="220" width="135" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.122;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pT97qanZ1TXDIdIiguL9-42" target="pT97qanZ1TXDIdIiguL9-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-63" value="Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="795" y="195" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-64" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="205" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
