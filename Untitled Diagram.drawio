@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T08:30:03.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="G6a7_Mv_I78qPpVx7-4U" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-25T08:37:27.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1MzA8NwO5HJzinWjqUlx" version="20.5.3" type="github" pages="4">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1022" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -421,12 +421,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vaevUv5ilhXGbFwBnnsC" name="Page-4">
-    <mxGraphModel dx="1872" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1872" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XjYUF4J5HuS5Eg9mjcWD-1" value="Service Portal React Web App FE" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="190" width="970" height="250" as="geometry" />
+          <mxGeometry x="190" y="-10" width="970" height="250" as="geometry" />
         </mxCell>
         <mxCell id="XjYUF4J5HuS5Eg9mjcWD-3" value="Authentication" style="rounded=1;whiteSpace=wrap;html=1;" parent="XjYUF4J5HuS5Eg9mjcWD-1" vertex="1">
           <mxGeometry x="10" y="30" width="120" height="30" as="geometry" />
@@ -435,10 +435,24 @@
           <mxGeometry x="615" y="40" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-24" value="User clicks on Logout Button / If User is Idle for sometime then pop up to extend the session or logout. If user opts for logout then call endpoint token/logout" style="rounded=1;whiteSpace=wrap;html=1;" parent="q-tRWynVouWXqpnCro3p-23" vertex="1">
-          <mxGeometry x="20" y="40" width="120" height="120" as="geometry" />
+          <mxGeometry x="15" y="40" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pT97qanZ1TXDIdIiguL9-9" value="Expire the accessToken" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="q-tRWynVouWXqpnCro3p-23">
+        <mxCell id="pT97qanZ1TXDIdIiguL9-9" value="Expire the accessToken" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#99FFFF;" vertex="1" parent="q-tRWynVouWXqpnCro3p-23">
           <mxGeometry x="190" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-10" value="Authorization&lt;br&gt;All APIs will have accessToken in the BearerToken header in the requests&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="XjYUF4J5HuS5Eg9mjcWD-1">
+          <mxGeometry x="150" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-11" value="AccessToken&lt;br&gt;&amp;nbsp;has shorter duration of expiration time and RefreshToken is relatively more" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#99FFFF;" vertex="1" parent="XjYUF4J5HuS5Eg9mjcWD-1">
+          <mxGeometry x="110" y="130" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XjYUF4J5HuS5Eg9mjcWD-1" source="pT97qanZ1TXDIdIiguL9-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-15" value="Access token stored in session storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="XjYUF4J5HuS5Eg9mjcWD-1">
+          <mxGeometry x="30" y="70" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q-tRWynVouWXqpnCro3p-1" value="JWT-Auth-Service" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="-100" y="290" width="405" height="380" as="geometry" />
@@ -522,10 +536,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q-tRWynVouWXqpnCro3p-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.836;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="q-tRWynVouWXqpnCro3p-1" target="XjYUF4J5HuS5Eg9mjcWD-3" edge="1">
+        <mxCell id="q-tRWynVouWXqpnCro3p-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.836;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="q-tRWynVouWXqpnCro3p-1" target="pT97qanZ1TXDIdIiguL9-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="360" as="sourcePoint" />
-            <mxPoint x="360" y="400" as="targetPoint" />
+            <mxPoint x="260" y="130" as="targetPoint" />
             <Array as="points">
               <mxPoint x="239" y="190" />
               <mxPoint x="260" y="190" />
@@ -628,6 +642,18 @@
             <mxPoint x="930" y="300" as="sourcePoint" />
             <mxPoint x="1033" y="200" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-12" value="API requiring Authorization" style="swimlane;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.077;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pT97qanZ1TXDIdIiguL9-11" target="pT97qanZ1TXDIdIiguL9-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pT97qanZ1TXDIdIiguL9-14" value="Request with Bearer Token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="255" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
