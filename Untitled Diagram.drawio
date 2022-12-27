@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T02:57:40.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="PpptiRXfCcALfKQfwyuc" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-12-27T03:15:29.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="iYfM9GkHSM4YhXCTPNrk" version="20.6.0" type="github" pages="5">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1022" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -820,7 +820,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="R2EdYTeMiCSRutBKnbUL-1" value="SSE container - &lt;br&gt;1. Connnection establish endpoint&lt;br&gt;2. Endpoint for scenarios which will be call from parent (SR updates) and this will create channels&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="R2EdYTeMiCSRutBKnbUL-1" value="SSE container - &lt;br&gt;1. Connnection establish endpoint&lt;br&gt;2. Endpoint for scenarios which will be call from parent (SR updates) and this will create channels&lt;br&gt;&lt;br&gt;try for dynamic channel creation" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="160" y="210" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="R2EdYTeMiCSRutBKnbUL-2" value="SR updates conatiner&lt;br&gt;1. SR created and notification goes to a group&lt;br&gt;2. On status change notification goes to creator of the SR&lt;br&gt;3. broadcast message (generic)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
