@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T09:33:44.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Hw8ygsy8X1c5y_wB6maK" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-27T02:57:40.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="PpptiRXfCcALfKQfwyuc" version="20.6.0" type="github" pages="5">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1022" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -811,6 +811,23 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1050" y="145" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0goSTw6_D7TxvPWGDCGx" name="Page-5">
+    <mxGraphModel dx="1022" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R2EdYTeMiCSRutBKnbUL-1" value="SSE container - &lt;br&gt;1. Connnection establish endpoint&lt;br&gt;2. Endpoint for scenarios which will be call from parent (SR updates) and this will create channels&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="R2EdYTeMiCSRutBKnbUL-2" value="SR updates conatiner&lt;br&gt;1. SR created and notification goes to a group&lt;br&gt;2. On status change notification goes to creator of the SR&lt;br&gt;3. broadcast message (generic)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="425" y="220" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R2EdYTeMiCSRutBKnbUL-3" value="FE&lt;br&gt;1.Establish connection&lt;br&gt;2.listen to group channel&lt;br&gt;3. listen to broadcast message" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
