@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T04:40:29.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9vlHHdz_94OSNIyQpXVZ" version="20.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-19T04:41:09.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dMHakeFQeRmK0L4KlBJC" version="20.7.4" type="github" pages="6">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1034" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -841,7 +841,7 @@
           <mxGeometry x="380" y="50" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-3" value="SSE Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="240" width="250" height="250" as="geometry" />
+          <mxGeometry x="50" y="242.5" width="250" height="250" as="geometry" />
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-21" value="/getNotifications" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LGPeyBZr_O28nGCPEwRb-3">
           <mxGeometry x="10" y="40" width="110" height="30" as="geometry" />
@@ -868,6 +868,9 @@
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-42" value="&lt;b&gt;Inputs:&lt;/b&gt;&lt;br&gt;message,&lt;br&gt;recipient,&lt;br&gt;type(Broadcast/Group/User)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LGPeyBZr_O28nGCPEwRb-4">
           <mxGeometry x="20" y="87.5" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-45" value="5" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LGPeyBZr_O28nGCPEwRb-4">
+          <mxGeometry x="220" y="107.5" width="20" height="15" as="geometry" />
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-6" value="API request to get existing notifications" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="60" width="230" height="30" as="geometry" />
