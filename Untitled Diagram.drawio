@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T04:41:09.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dMHakeFQeRmK0L4KlBJC" version="20.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-19T04:45:05.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4PxcryMsRJ7nprbXJOR0" version="20.7.4" type="github" pages="6">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1034" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -849,8 +849,8 @@
         <mxCell id="LGPeyBZr_O28nGCPEwRb-24" value="/sse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LGPeyBZr_O28nGCPEwRb-3">
           <mxGeometry x="130" y="40" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LGPeyBZr_O28nGCPEwRb-40" value="/sseNotification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LGPeyBZr_O28nGCPEwRb-3">
-          <mxGeometry x="20" y="190" width="170" height="30" as="geometry" />
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-40" value="&lt;b&gt;/sseNotification&lt;/b&gt;&lt;br&gt;1. creates notification in the DB&lt;br&gt;2. Broadcasts a message to the notification channel established earlier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LGPeyBZr_O28nGCPEwRb-3">
+          <mxGeometry x="20" y="120" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-4" value="Service Request API container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="242.5" width="300" height="245" as="geometry" />
