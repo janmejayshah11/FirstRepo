@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T04:22:57.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZcwcgkaWJQ88CuwmDaVn" version="20.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-19T04:30:05.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wVqFutLBIq53Osxp8I4e" version="20.7.4" type="github" pages="6">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1034" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -853,7 +853,16 @@
           <mxGeometry x="570" y="240" width="260" height="245" as="geometry" />
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-30" value="SSE Notification service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LGPeyBZr_O28nGCPEwRb-4">
-          <mxGeometry x="20" y="170" width="220" height="50" as="geometry" />
+          <mxGeometry x="20" y="180" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LGPeyBZr_O28nGCPEwRb-4" source="LGPeyBZr_O28nGCPEwRb-33" target="LGPeyBZr_O28nGCPEwRb-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-33" value="/createSR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LGPeyBZr_O28nGCPEwRb-4">
+          <mxGeometry x="30" y="35" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-34" value="/approveSR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LGPeyBZr_O28nGCPEwRb-4">
+          <mxGeometry x="150" y="60" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-6" value="API request to get existing notifications" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="60" width="230" height="30" as="geometry" />
@@ -895,10 +904,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-28" value="3" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="67.5" width="20" height="15" as="geometry" />
+          <mxGeometry x="610" y="67.5" width="20" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="LGPeyBZr_O28nGCPEwRb-29" value="Create / Approve SR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="650" y="60" width="130" height="30" as="geometry" />
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-29" value="POST API call to Create / Approve SR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LGPeyBZr_O28nGCPEwRb-33" target="LGPeyBZr_O28nGCPEwRb-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="350" as="sourcePoint" />
+            <mxPoint x="480" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-37" value="Create channel with earlier established connection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LGPeyBZr_O28nGCPEwRb-34" target="LGPeyBZr_O28nGCPEwRb-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-39" value="4" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="255" width="20" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
