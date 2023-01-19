@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T04:50:53.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qWwSJ3RYiV-albuMvCyf" version="20.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-19T04:51:33.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UT9BUZKuOvlwb0BvBSPz" version="20.7.4" type="github" pages="6">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1034" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -841,7 +841,7 @@
           <mxGeometry x="380" y="50" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-48" value="Event listeners created to listen to SSE events&amp;nbsp;&lt;br&gt;1. &lt;b&gt;Broadcast_Notification&lt;/b&gt;&lt;br&gt;2. &lt;b&gt;SSENotification_userId&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LGPeyBZr_O28nGCPEwRb-2">
-          <mxGeometry x="20" y="30" width="170" height="120" as="geometry" />
+          <mxGeometry x="15" y="32.5" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-3" value="SSE Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="255" width="250" height="250" as="geometry" />
