@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T09:18:41.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0t56UGvUUHFDZYcExvD2" version="20.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-19T09:19:13.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="e1_MwQ3TyRzlgcwczyMA" version="20.7.4" type="github" pages="6">
   <diagram id="0DOfvKG8S6cneYVyOeUs" name="Page-1">
     <mxGraphModel dx="1034" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -902,8 +902,8 @@
         <mxCell id="LGPeyBZr_O28nGCPEwRb-13" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
           <mxGeometry x="170" y="115" width="20" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="LGPeyBZr_O28nGCPEwRb-14" value="Establish a&amp;nbsp; connection using new EventSource" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="130" width="280" height="30" as="geometry" />
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-14" value="Establish a&amp;nbsp; session using new EventSource" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LGPeyBZr_O28nGCPEwRb-2" target="LGPeyBZr_O28nGCPEwRb-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -926,8 +926,8 @@
             <mxPoint x="480" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LGPeyBZr_O28nGCPEwRb-37" value="Create channel with earlier established connection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290" y="280" width="290" height="30" as="geometry" />
+        <mxCell id="LGPeyBZr_O28nGCPEwRb-37" value="Create channel with earlier established session" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LGPeyBZr_O28nGCPEwRb-39" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFF66;" vertex="1" parent="1">
           <mxGeometry x="310" y="265" width="20" height="15" as="geometry" />
