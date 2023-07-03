@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T05:52:00.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YTLJOzo8iDmj-6p6-4iW" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T05:57:22.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XdiVcvnm7QsnJ0yC9VQj" version="21.5.2" type="github">
   <diagram name="Page-1" id="PZqOhYPap5A3X778DCO2">
     <mxGraphModel dx="1379" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,25 +11,25 @@
           <mxGeometry x="210" y="100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hwtEP4QM51LNbg8bqswo-6" value="&lt;b&gt;Filter for getting Reports:&lt;br&gt;&lt;/b&gt;Start Date and End Date selected" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="8" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hwtEP4QM51LNbg8bqswo-7" value="&lt;b&gt;Filter for getting Reports&lt;/b&gt;:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Start date&amp;nbsp; and&amp;nbsp; End date&amp;nbsp; both as 31st of the month selected" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="100" width="130" height="80" as="geometry" />
+          <mxGeometry x="410" y="100" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hwtEP4QM51LNbg8bqswo-8" value="&lt;b&gt;Filter for getting Reports:&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Start date&amp;nbsp; and&amp;nbsp; End date&amp;nbsp; both as 31st of the Dec for the&amp;nbsp; selected Year" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="240" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hwtEP4QM51LNbg8bqswo-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="hwtEP4QM51LNbg8bqswo-6">
+        <mxCell id="hwtEP4QM51LNbg8bqswo-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hwtEP4QM51LNbg8bqswo-3" target="hwtEP4QM51LNbg8bqswo-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="100" as="sourcePoint" />
             <mxPoint x="560" y="50" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="40" />
+              <mxPoint x="250" y="38" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hwtEP4QM51LNbg8bqswo-10" value="Frequency = Daily" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="460" y="8" width="120" height="30" as="geometry" />
+          <mxGeometry x="240" y="8" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hwtEP4QM51LNbg8bqswo-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hwtEP4QM51LNbg8bqswo-3" target="hwtEP4QM51LNbg8bqswo-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -47,7 +47,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hwtEP4QM51LNbg8bqswo-13" value="Frequency= Monthly" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="110" width="130" height="30" as="geometry" />
+          <mxGeometry x="280" y="110" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hwtEP4QM51LNbg8bqswo-15" value="Frequency= Yearly" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="250" width="120" height="30" as="geometry" />
@@ -57,6 +57,42 @@
             <mxPoint x="160" y="190" as="sourcePoint" />
             <mxPoint x="210" y="140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hwtEP4QM51LNbg8bqswo-18" value="Response will have File with Makhtaba Id and type (PDF/Excel)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="100" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEP4QM51LNbg8bqswo-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="hwtEP4QM51LNbg8bqswo-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="140" as="sourcePoint" />
+            <mxPoint x="590" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwtEP4QM51LNbg8bqswo-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="hwtEP4QM51LNbg8bqswo-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="40" as="sourcePoint" />
+            <mxPoint x="530" y="-10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="715" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwtEP4QM51LNbg8bqswo-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hwtEP4QM51LNbg8bqswo-8" target="hwtEP4QM51LNbg8bqswo-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="290" as="sourcePoint" />
+            <mxPoint x="710" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="715" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwtEP4QM51LNbg8bqswo-22" value="Fetch Reports" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="520" y="8" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEP4QM51LNbg8bqswo-23" value="Fetch Reports" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEP4QM51LNbg8bqswo-24" value="Fetch Reports" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="550" y="240" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
